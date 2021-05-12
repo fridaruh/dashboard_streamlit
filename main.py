@@ -14,7 +14,7 @@ with dataExploration:
 
 import pandas as pd
 
-df = pd.read_csv('./Data/income.csv')
+df = pd.read_csv('./income.csv')
 
 
 st.write(df.head())
